@@ -1,0 +1,12 @@
+form{
+    background-color: aqua;
+    display: inline-block;
+    margin: 10px;
+    padding: 16px;
+}
+
+form span{
+    display: block;
+    width: 80px;
+    margin: 10px 3px 3px 8px;
+}

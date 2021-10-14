@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="signup.css">
+    <link href="index.html">
+    <title>Sign Up</title>
+    
+</head>
+<body>
+    <h1>Sign Up</h1>
+    <p>Sign up, and create your account now!</p>
+    <form>
+        <div>
+        <span>Nickname:</span><input type="text" name = "Nickname">
+        </div>
+        <div>
+        <span>Email:</span><input type="text" type="email" id="email"
+        pattern=".+@globex\.com"    required name = "Email">
+        </div>
+        <div>
+            <span>Password:</span><input type="password" name="Password">
+        </div>
+        <div>
+            <span>Confirm Password:</span><input type="password" name="Confirm Password">
+        </div>
+        <div>
+            <span>Country: </span>
+            <select name="country">
+                <option value="1">Albania</option>
+                <option value="2">Bulgaria</option>
+                <option value="3">Cyprus</option>
+                <option value="4">Greece</option>
+                <option value="5">North Macedonia</option>
+                <option value="6">Romania</option>
+                <option value="7">Serbia</option>
+                <option value="8">Turkey</option>
+            </select>
+        </div>
+        <div>
+            <input type="submit"value="Log In">
+        </div>
+    </form>
+    <ul>
+        <li>
+            <a href="index.html">Back to main</a>
+        </li>
+    </ul>
+</body>
+</html>
