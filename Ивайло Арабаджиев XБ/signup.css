@@ -1,12 +1,24 @@
 form{
     background-color: aqua;
     display: inline-block;
+    width: 300px;
     margin: 10px;
-    padding: 16px;
+    padding: 8px;
 }
 
+
 form span{
-    display: block;
-    width: 80px;
+    float: left;
+    width: 25%;
+    
+}
+
+form select{
+    width: 65%;
     margin: 10px 3px 3px 8px;
+}
+form input{
+    width: 150px;
+    height: 20px;
+    margin: 8px;
 }
